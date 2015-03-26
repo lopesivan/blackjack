@@ -1,6 +1,6 @@
-from .card import Card
+from .carta import Carta
 
-class AceCard(Card):
+class Ases(Carta):
     insure = True
 
     def _points(self):

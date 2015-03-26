@@ -1,7 +1,7 @@
-from .card import Card
+from .carta import Carta
 
 
-class FaceCard(Card):
+class Figura(Carta):
 
     def _points(self):
         return 10, 10
