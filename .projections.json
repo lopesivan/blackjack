@@ -1,0 +1,15 @@
+{
+  "README.md":      { "type": "readme" },
+  "main.py":        {
+    "type": "main",
+    "make": "python {file|basename}",
+    "start": "ptpython --vi --interactive={file|basename}",
+    "dispatch": "bpython -i {file|basename}"
+  },
+  "cards/*.py":     {
+    "type": "cards",
+    "make": "python {file|basename}",
+    "start": "ptpython --vi --interactive={file|basename}",
+    "dispatch": "bpython -i {file|basename}"
+  }
+}
