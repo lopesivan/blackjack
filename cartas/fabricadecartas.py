@@ -20,7 +20,8 @@ class FabricaDeCartas(object):
         return self.class_(self.numero_str, nipe)
 
     def nipes(self):
-        return Nipe('Paus', '♣'), \
+        return \
+            Nipe('Paus', '♣'), \
             Nipe('Ouros', '♦'), \
             Nipe('Copas', '♥'), \
             Nipe('Espada', '♠')
