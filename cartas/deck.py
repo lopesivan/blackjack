@@ -9,3 +9,6 @@ class Deck(object):
 
     def pop(self):
         return self._cartas.pop()
+
+    def len(self):
+        return len(self._cartas)
