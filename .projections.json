@@ -6,8 +6,8 @@
     "start": "ptpython --vi --interactive={file|basename}",
     "dispatch": "bpython -i {file|basename}"
   },
-  "cards/*.py":     {
-    "type": "cards",
+  "cartas/*.py":     {
+    "type": "cartas",
     "make": "python {file|basename}",
     "start": "ptpython --vi --interactive={file|basename}",
     "dispatch": "bpython -i {file|basename}"
