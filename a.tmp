@@ -1,0 +1,4 @@
+Todas as cartas com 10 ou menos (2, 3, 4, 5, 6, 7 ,8, 9, 10) têm um valor igual a seu número. Os naipes não influenciam o valor das cartas (o quatro de paus possui o mesmo valor que o quatro de ouros). Por exemplo: se um jogador receber as seguintes cartas: 2, 5 e 8, o valor de todas as três equivalerá a 15.
+Os valetes, damas e reis são todos equivalentes a 10. Como as cartas numeradas, naipes diferentes não afetam o valor dessas cartas. Por exemplo: se um jogador receber um valete ou um rei como suas duas primeiras cartas viradas para cima, elas equivalerão a 20, a segunda pontuação mais alta, abaixo apenas do 21.
+A última carta, o ás, tem um valor especial no jogo de blackjack. O ás pode valer 1 ou 11, com o número real dependente do valor mais vantajoso em uma mão específica. Um ás com um rei, rainha ou valete significa 21 pontos e o jogador receberá 3:2 de sua aposta imediatamente.
+
