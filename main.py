@@ -9,6 +9,10 @@ def main():
             deck.append(carta.numero(r + 1).nipe(s))
 
     print deck
+    print len(deck)
+    print deck[1]
+    print repr(deck[1])
+
 
 if __name__ == '__main__':
     main()
