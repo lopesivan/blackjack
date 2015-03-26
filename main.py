@@ -3,16 +3,16 @@ from cartas import Nipe, FabricaDeCartas
 
 
 def main():
-    Club, Diamond, Heart, Spade = \
-        Nipe('Club', '♣'), \
-        Nipe('Diamond', '♦'), \
-        Nipe('Heart', '♥'), \
-        Nipe('Spade', '♠')
+    Paus, Ouros, Copas, Espada = \
+        Nipe('Paus', '♣'), \
+        Nipe('Ouros', '♦'), \
+        Nipe('Copas', '♥'), \
+        Nipe('Espada', '♠')
 
     carta = FabricaDeCartas()
     deck = []
     for r in range(13):
-        for s in (Club, Diamond, Heart, Spade):
+        for s in (Paus, Ouros, Copas, Espada):
             deck.append(carta.rank(r + 1).suit(s))
 
     print deck
