@@ -1,19 +1,12 @@
-# -*- coding: utf-8 -*-
-from cartas import Nipe, FabricaDeCartas
+from cartas import FabricaDeCartas
 
 
 def main():
-    Paus, Ouros, Copas, Espada = \
-        Nipe('Paus', '♣'), \
-        Nipe('Ouros', '♦'), \
-        Nipe('Copas', '♥'), \
-        Nipe('Espada', '♠')
-
     carta = FabricaDeCartas()
     deck = []
     for r in range(13):
-        for s in (Paus, Ouros, Copas, Espada):
-            deck.append(carta.rank(r + 1).suit(s))
+        for s in (carta.nipes()):
+            deck.append(carta.numero(r + 1).nipe(s))
 
     print deck
 
